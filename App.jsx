@@ -1,13 +1,14 @@
 import React from "react";
 import { NavigationContainer } from '@react-navigation/native'
-import { NativeBaseProvider, Box } from "native-base";
-import Routes from "./src/routes";
+import Routes from "./src/routes/routes";
+import MainStack from "./src/stacks/MainStack";
 
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Routes />
+      {/*<Routes />*/}
+      <MainStack />
     </NavigationContainer>
   ); 
   }

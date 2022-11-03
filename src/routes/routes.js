@@ -1,10 +1,10 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import Home from './telas/Home';
-import Meditacao from './telas/Meditação';
-import Frases from './telas/Frases';
-import Perfil from './telas/Perfil';
+import Home from '../screens/Home';
+import Meditacao from '../screens/Meditação';
+import Frases from '../screens/Frases';
+import Perfil from '../screens/Perfil';
 
 import { Ionicons } from '@expo/vector-icons'
 
