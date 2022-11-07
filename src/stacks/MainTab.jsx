@@ -10,20 +10,20 @@ import { Ionicons } from '@expo/vector-icons'
 
 const Tab = createBottomTabNavigator();
 
-export default function Routes(){
+export default function MainTab(){
     return(
         <Tab.Navigator
         screenOptions={{
             tabBarStyle:{
                 position: "absolute",
-                backgroundColor: '#e4e4e4',
+                backgroundColor: '#FFF',
                 borderTopWidth: 0,
             }
         }}
     >
 
             <Tab.Screen 
-            name="Home" 
+            name='Home'
             component={Home} 
             options={{
                 headerShown: false,

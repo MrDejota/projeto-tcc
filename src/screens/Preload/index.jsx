@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, LoadingIcon } from './styles';
-import AsyncStorage from '@react-native-community/async-storage';
+import { AsyncStorage } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -13,10 +13,10 @@ export default () => {
     useEffect(()=>{
         const checkToken = async () => {
             const token = await AsyncStorage.getItem('token');
-            if(token) {
+            if(token !== null) {
 
             } else {
-                navigation.navigate('SignIn');
+                navigation.navigate('MainTab');
             }
         }
         checkToken(); 
@@ -24,7 +24,7 @@ export default () => {
 
     return (
         <Container>
-            {/*<CalmClass />*/}
+            <CalmClass />
             <LoadingIcon size="large" />
         </Container>
     )
