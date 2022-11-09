@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, LoadingIcon } from './styles';
-import { AsyncStorage } from 'react-native';
+import { AsyncStorage, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 
@@ -16,7 +16,7 @@ export default () => {
             if(token !== null) {
 
             } else {
-                navigation.navigate('MainTab');
+                navigation.navigate('Inicio');
             }
         }
         checkToken(); 
@@ -24,7 +24,9 @@ export default () => {
 
     return (
         <Container>
-            <CalmClass />
+            <TouchableOpacity>
+                <CalmClass onPress={()=> navigation.navigate('Inicio')}/>
+            </TouchableOpacity>
             <LoadingIcon size="large" />
         </Container>
     )

@@ -1,19 +1,27 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Container, Logo, Frase } from './styles';
 
-export default function App() {
+
+import FraseDoDia from '../../../assets/icons/frasedodia.svg';
+import { ScrollView } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+
+export default function Frases() {
+
+  const navigation = useNavigation();
+
   return (
-    <View style={styles.container}>
-      <Text> Página Frases </Text>
-    </View>
+    
+    <Container>
+      
+      <ScrollView>
+
+      <Frase> 
+        <FraseDoDia onPress={()=> navigation.navigate('Frase_Do_Dia')}/>
+      </Frase>
+
+      </ScrollView>        
+
+    </Container>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

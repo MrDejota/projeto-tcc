@@ -16,7 +16,7 @@ export default function MainTab(){
         screenOptions={{
             tabBarStyle:{
                 position: "absolute",
-                backgroundColor: '#FFF',
+                backgroundColor: '#121212',
                 borderTopWidth: 0,
             }
         }}
