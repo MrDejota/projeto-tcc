@@ -16,7 +16,7 @@ export default function MainTab(){
         screenOptions={{
             tabBarStyle:{
                 position: "absolute",
-                backgroundColor: '#121212',
+                backgroundColor: '#FFF',
                 borderTopWidth: 0,
             }
         }}
@@ -38,6 +38,21 @@ export default function MainTab(){
             />
 
             <Tab.Screen 
+            name="Caixinha" 
+            component={Frases} 
+            options={{
+                headerShown: false,
+                tabBarIcon: ({ color, size, focused }) => {
+                    if(focused){
+                        return <Ionicons name="cube" size={size} color={color='#8a2be2'} />
+                    }
+
+                    return <Ionicons name="cube-outline" size={size} color={color='#8a2be2'} />
+                }
+            }}
+            />
+
+            <Tab.Screen 
             name="Meditação" 
             component={Meditacao} 
             options={{
@@ -48,21 +63,6 @@ export default function MainTab(){
                     }
 
                     return <Ionicons name="cloud-outline" size={size} color={color='#8a2be2'} />
-                }
-            }}
-            />
-
-            <Tab.Screen 
-            name="Frases" 
-            component={Frases} 
-            options={{
-                headerShown: false,
-                tabBarIcon: ({ color, size, focused }) => {
-                    if(focused){
-                        return <Ionicons name="book" size={size} color={color='#8a2be2'} />
-                    }
-
-                    return <Ionicons name="book-outline" size={size} color={color='#8a2be2'} />
                 }
             }}
             />

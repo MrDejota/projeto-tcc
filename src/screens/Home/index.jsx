@@ -36,7 +36,7 @@ const navigation = useNavigation();
         <CalmClass />
 
         <BoasVindas>
-          Olá, Lucas!
+          Boas-vindas ao CalmClass!
         </BoasVindas>
 
       </Logo>
@@ -59,15 +59,25 @@ const navigation = useNavigation();
 
       <Menu2> 
 
-        <Autocontrole />
-        <Raiva />
+        <TouchableOpacity onPress={()=> navigation.navigate('Autocontrole')}> 
+          <Autocontrole />
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={()=> navigation.navigate('Raiva')}>
+          <Raiva />
+        </TouchableOpacity>
 
         </Menu2>
 
         <Menu3> 
 
+        <TouchableOpacity onPress={()=> navigation.navigate('Ansiedade')}>
           <Ansiedade />
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={()=> navigation.navigate('Depressão')}>
           <Depressao />
+        </TouchableOpacity>
 
         </Menu3>
 

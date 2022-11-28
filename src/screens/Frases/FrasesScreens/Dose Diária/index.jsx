@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-export default function Frase_Do_Dia(){
+export default function DoseDiaria(){
     return(
         <Container />
     )
