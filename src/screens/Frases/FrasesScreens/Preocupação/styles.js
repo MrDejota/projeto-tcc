@@ -5,6 +5,12 @@ export const Container = styled.SafeAreaView`
     flex: 1;
 `;
 
+export const Imagem = styled.SafeAreaView`
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+`;
+
 export const Seta = styled.View`
     background-color: #94C3D2;
     padding-top: 15%;

@@ -24,11 +24,15 @@ export default function Depressao(){
                     <Flecha />
                 </TouchableOpacity>
                 <Text style={{fontSize:20}}> Detalhes da leitura </Text>
-                <Save />         
+
+                <TouchableOpacity>
+                    <Save />
+                </TouchableOpacity>
+
             </Box> 
 
             <Box1>
-                <Text style={{fontSize:25}}> Deprimindo a depressão </Text>
+                <Text style={{fontSize:25}}> Superando a depressão </Text>
                 <Mulher />
             </Box1>
 
@@ -36,18 +40,19 @@ export default function Depressao(){
             <Linha1 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
-            Mais do que sentir-se mal ou com uma sensação de vazio, a depressão é uma doença que pede atenção e tratamento. No entanto, junto com toda atuação multidisciplinar, o mindfulness no tratamento da depressão pode funcionar como ferramenta para melhorar os sintomas da doença.
-
-Antes de mais nada, é importante entender que depressão é algo sério. “Ela tem um diagnóstico amplo, caracterizado por um humor deprimido e perda de prazer nas  atividades do dia a dia. Esse sentimento causa grande comprometimento da saúde, bem-estar e qualidade de vida do paciente”, comenta a naturóloga pós-graduada em neurociência Joana Carreirão, terapeuta do Zenklub (plataforma de saúde emocional e desenvolvimento pessoal).
+            A depressão não está necessariamente alinhada aos acontecimentos. Tudo pode estar
+             correndo muito bem na vida de uma pessoa deprimida, mas ela vai continuar apresentando
+              os sinais da doença até que busque tratamento. Já a tristeza tem motivo: em geral, a 
+              pessoa tem consciência dela e sabe o que gerou o sentimento.
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>
             <Linha2 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
-                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, possui problemas de ansiedade
-                e foi em busca de profissionais para criar seu próprio embasamento sobre 
-                qual a melhor forma de enfrentar a ansiedade.
+                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, conhece pessoas
+                que possuem depressão e sentiu a necessidade de buscar compreender melhor como
+                ela age e as melhores formas de lidar.
             </Text>
 
             <Box2>

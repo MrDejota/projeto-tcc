@@ -47,7 +47,7 @@ const navigation = useNavigation();
           <Basicos />
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={()=> navigation.navigate('Relaxar')}>
+        <TouchableOpacity onPress={()=> navigation.navigate('Meditação')}>
           <Relaxar />
         </TouchableOpacity>
 

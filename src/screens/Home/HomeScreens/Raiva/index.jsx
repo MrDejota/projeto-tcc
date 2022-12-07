@@ -24,7 +24,11 @@ export default function Raiva(){
                     <Flecha />
                 </TouchableOpacity>
                 <Text style={{fontSize:20}}> Detalhes da leitura </Text>
-                <Save />         
+
+                <TouchableOpacity>
+                    <Save />
+                </TouchableOpacity>  
+
             </Box> 
 
             <Box1>
@@ -36,18 +40,19 @@ export default function Raiva(){
             <Linha1 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
-            Essa leitura te ajudará a compreender melhor como a sua mente se 
-            comporta durante uma situação de ansiedade no ambiente escolar, te ensinando e propondo
-            atitudes e exercícios para controlá-la.
+                As pessoas costumam expressar a raiva por meio de gritos, xingamentos, brigas 
+            físicas e, agora com a internet, em comentários ofensivos. Vemos esses comportamentos 
+            em todo lugar, não é? Mas é possível expressá-la de forma boa, saudável para o corpo e 
+            a mente.
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>
             <Linha2 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
-                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, possui problemas de ansiedade
-                e foi em busca de profissionais para criar seu próprio embasamento sobre 
-                qual a melhor forma de enfrentar a ansiedade.
+                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, se interessou
+                sobre como a raiva descontrolada afeta a saúde mental das pessoas e foi em busca
+                de especialista para compreender a melhor forma de expressar raiva da melhor maneira.
             </Text>
 
             <Box2>

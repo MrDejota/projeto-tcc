@@ -190,6 +190,7 @@ const styles = StyleSheet.create({
   },
   textLight: {
     color: '#363636',
+    marginTop: 30
   },
   text: {
     color: '#363636',

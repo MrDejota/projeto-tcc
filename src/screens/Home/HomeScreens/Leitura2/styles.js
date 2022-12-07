@@ -6,8 +6,7 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const Box = styled.View`
-    flex-direction: row;
-    justify-content: space-around;
+    margin-left: 5%;
     margin-top: 15%;
 `;
 
@@ -20,14 +19,14 @@ export const Box1 = styled.View`
 export const Linha1 = styled.View`
     background-color: #A762FF;
     margin-left: 5%;
-    width: 243px;
+    width: 260px;
     height: 3px;
 `;
 
 export const Linha2 = styled.View`
     background-color: #A762FF;
     margin-left: 4%;
-    width: 340px;
+    width: 360px;
     height: 3px;
 `;
 

@@ -35,7 +35,7 @@ export default function Perfeicao(){
             <ScrollView> 
                 <Text style={{textAlign:'center', fontSize: 25, fontWeight: 'bold', marginTop: 10}} > Perfeição </Text>
 
-                <Text style={{textAlign:'center', fontSize: 16, fontStyle: 'italic', marginTop: 5}} > “Não tente ser sempre forte e perfeito. Aceite que nem todos os dias são bons.” </Text>
+                <Text style={{textAlign:'center', fontSize: 16, fontStyle: 'italic', margin: 10}} > “Não tente ser sempre forte e perfeito. Aceite que nem todos os dias são bons.” </Text>
 
                 <Text style={{textAlign:'justify', fontSize: 14, marginTop: 15, margin: 10}} >     Como diz o velho ditado: “Dias bons, dias ruins” Somos seres
                  humanos com imperfeições e falhas, por isso, pare de ficar exigindo demais de você. Afinal de contas, ninguém é uma máquina programável que nunca falha, certo?

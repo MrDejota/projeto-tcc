@@ -31,7 +31,7 @@ export default function Pausa(){
             <ScrollView> 
                 <Text style={{textAlign:'center', fontSize: 25, fontWeight: 'bold', marginTop: 10}} > Pausa </Text>
 
-                <Text style={{textAlign:'center', fontSize: 16, fontStyle: 'italic', marginTop: 5}} > “Valorize momentos de pausa e relaxamento. Sua mente precisa de descansar para ter energia.” </Text>
+                <Text style={{textAlign:'center', fontSize: 16, fontStyle: 'italic', margin: 10}} > “Valorize momentos de pausa e relaxamento. Sua mente precisa de descansar para ter energia.” </Text>
 
                 <Text style={{textAlign:'justify', fontSize: 14, margin: 10}} >     Sabe aquela hora da pausa no trabalho ou o momento de relaxamento nos finais de semana? Você deve aproveitá-los ao máximo, já que a nossa mente também precisa descansar, até mesmo para ficar livre da ansiedade do dia a dia.
                 </Text>

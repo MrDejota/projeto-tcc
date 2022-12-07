@@ -6,28 +6,27 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const Box = styled.View`
-    flex-direction: row;
-    justify-content: space-around;
+    margin-left: 5%;
     margin-top: 15%;
 `;
 
 export const Box1 = styled.View`
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-bottom: 10%;
 `;
 
 export const Linha1 = styled.View`
     background-color: #A762FF;
     margin-left: 5px;
-    width: 83px;
+    width: 180px;
     height: 3px;
 `;
 
 export const Linha2 = styled.View`
     background-color: #A762FF;
     margin-left: 5px;
-    width: 125px;
+    width: 130px;
     height: 3px;
 `;
 

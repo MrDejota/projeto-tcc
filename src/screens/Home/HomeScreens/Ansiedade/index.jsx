@@ -23,8 +23,13 @@ export default function Ansiedade(){
                 <TouchableOpacity onPress={()=> navigation.navigate('MainTab')}> 
                     <Flecha />
                 </TouchableOpacity>
+
                 <Text style={{fontSize:20}}> Detalhes da leitura </Text>
-                <Save />         
+
+                <TouchableOpacity>
+                    <Save />
+                </TouchableOpacity> 
+
             </Box> 
 
             <Box1>
@@ -36,7 +41,9 @@ export default function Ansiedade(){
             <Linha1 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
-            A ansiedade tem sido um problema que impacta negativamente na vida de muitas pessoas.  Atualmente ansiolíticos são os remédios controlados mais receitados no Brasil. Nesse curso trazemos a ciência da meditação, a prática de Mindfulness e conhecimentos da psicologia para aprendermos a lidar com a ansiedade.
+            Essa leitura te ajudará a compreender melhor como a sua mente se 
+            comporta durante uma situação de ansiedade no ambiente escolar, te ensinando e propondo
+            atitudes e exercícios para controlá-la.
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>

@@ -6,8 +6,7 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const Box = styled.View`
-    flex-direction: row;
-    justify-content: space-around;
+    margin-left: 5%;
     margin-top: 15%;
 `;
 

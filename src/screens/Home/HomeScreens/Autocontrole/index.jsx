@@ -25,8 +25,10 @@ export default function Autocontrole( ){
                 </TouchableOpacity>
                 <Text style={{fontSize:20}}> Detalhes da leitura </Text>
 
-                <Save />
-    
+                <TouchableOpacity>
+                    <Save />
+                </TouchableOpacity>
+
             </Box> 
 
             <Box1>
@@ -38,18 +40,20 @@ export default function Autocontrole( ){
             <Linha1 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
-            Essa leitura te ajudará a compreender melhor como a sua mente se 
-            comporta durante uma situação de ansiedade no ambiente escolar, te ensinando e propondo
-            atitudes e exercícios para controlá-la.
+            O autocontrole ajuda a ter inteligência emocional para guiar as emoções negativas, 
+            como a ansiedade, o estresse e o nervosismo. Na maioria das vezes, não é possível 
+            impedir que emoções ruins nos aflijam, uma vez que são espontâneas e automáticas em 
+            certas situações. No entanto, a pessoa que tem autocontrole consegue lidar melhor 
+            com esses sentimentos, fazendo com que a resposta a eles seja a melhor possível.
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>
             <Linha2 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
-                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, possui problemas de ansiedade
-                e foi em busca de profissionais para criar seu próprio embasamento sobre 
-                qual a melhor forma de enfrentar a ansiedade.
+                Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, desde sempre
+                observou a importância do autocontrole perante situações difíceis e foi em 
+                busca de especialistas para entender qual a sua importância e a melhor forma de reagir.
             </Text>
 
             <Box2>
